@@ -26,7 +26,7 @@
 
 mkDerivation rec {
   pname = "calibre";
-  version = "4.23.0";
+  version = "5.7.2";
 
   src = fetchurl {
     url = "https://download.calibre-ebook.com/${version}/${pname}-${version}.tar.xz";
